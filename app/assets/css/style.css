@@ -1,0 +1,305 @@
+
+@font-face {
+    font-family: 'tiemposbold';
+    src: url(font/Tiempos/tiemposbold.otf);
+}
+
+@font-face {
+    font-family: 'helveticaneue';
+    src: url(font/helveticaneue.otf);
+}
+
+/* -----------------------logo------------------------- */
+
+#logoacceuil {
+    display: flex;
+    flex-direction: row;
+    transition: 5s;
+}
+#logoacceuil:hover {
+    transition: 5s;
+    transform: rotate(360deg);
+    }
+
+
+
+.header {
+    height: 300px;
+    background-color: #9ECCD0;
+    width: 100%;
+}
+
+
+
+h1 {
+    font-family: 'tiemposbold';
+    padding-bottom: 5%;
+    padding-top: 8%;
+    text-align: center;
+}
+
+
+
+.presbalise {
+    font-family: 'helveticaneue';
+    font-weight: 700;
+    font-size: 1.5em;
+    padding-top: 12%;
+    text-align: center;
+}
+
+main {
+    background-image: url(Img/fontinterieur.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-position: center;
+}
+
+.logonul {
+    padding-top: 12%;
+    text-align: center;
+}
+
+
+.footer {
+    height: 150px;
+    background-color: #9ECCD0;
+    text-align: center;
+    padding-top: 2%;
+}
+#credit{
+    font-family: 'helveticaneue';
+    color: black;
+}
+
+/* -----------------------MENU----------------------- */
+nav.menudusite ul li.btn {
+    display: inline-block;
+    list-style-type: none;
+    background-size: 120px;
+    margin: 0 0 0 0;
+    box-shadow: 2px 2px 2px silver;
+    width: 115px;
+    background-color: black;
+    margin-bottom: 5px;
+    text-align: center;
+    transition: 1s;
+    margin-left: -30px;
+    }
+    
+    nav.menudusite ul li.btn a {
+    color: white;
+    text-decoration: none;
+    background-size: 3.2em;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: "helveticaneue";
+    }
+    
+    .menu {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 6em;
+    z-index: 1000;
+    /* margin-top: -2.5em; */
+    margin: 20px 0;
+    }
+
+/* --------------------------------LEA----------------------------- */
+
+.header--saumon {
+    height: 300px;
+    background-color: salmon;
+    width: 100%;
+}
+.footer--saumon {
+    height: 150px;
+    background-color: salmon;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.presbalise--body p {
+    padding-top: 0;
+    padding-bottom: 5%;
+}
+
+.main--saumon {
+    background-image: url(Img/fontinterieur.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-position: center;
+}
+
+.main--saumon img {
+    padding-bottom: 5%;
+}
+
+
+
+/* ---------------CHERIF----------------- */
+
+.header--bleu {
+    height: 300px;
+    background-color:#6184D2; 
+    width: 100%;
+}
+.footer--bleu {
+    height: 150px;
+    background-color:#6184D2; 
+    text-align: center;
+    padding-top: 2%;
+}
+
+/* ------------------ISABELLE------------------ */
+
+/* --------------- link ------------------ */
+
+#form {
+    background-color:#C989A1; 
+    margin: 0px 0px 0px 0;
+    text-align: center;
+}
+
+#sectionexlink{
+    position: relative;
+    display: flex;
+    /* margin-top: 95px; */
+    align-items: center;
+    justify-content: center;
+    /* padding: 22px 41px 25px 41px;
+    margin: 22px 101px -36px 125px; */
+}
+
+/* ------------- p, ul, ...-------------- */
+
+.presbalise2 {
+    font-family: 'helveticaneue';
+    /* margin-top: 95px; */
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    /* padding: 22px 41px 25px 41px;
+    margin: 14px 135px -36px 143px; */
+    border-color: gray;
+    border-style: solid;
+    position: relative;
+    /* margin-block-start: 30px;
+    padding-block-start: 50px; */
+}
+/* .sectiontexte{
+    /* padding: 8px 0px 0 0;
+    margin: 17px 0 0 0; */
+/* } */ 
+
+.titrebalise {
+    font-family: 'tiemposbold';
+    /* padding-top: 140px; */
+    position: relative;
+}
+/* 
+#photobasp {
+    margin: -2000px 0 0 0;
+} */
+
+
+/* -----------------form----------------- */
+#formexemple {
+    padding-top: 40px;
+    }
+
+#sectionform {
+    font-family: 'helveticaneue';
+}
+
+
+/* -----------------select----------------- */
+span {
+    color:crimson;
+    }
+li {color:cornflowerblue;
+    list-style-image : url(etoile.png);
+    text-align: left}
+
+    /* #photobasselect{
+        margin: -800px 0 0 0;
+    } */
+
+    #sectionselect {
+        position: relative;
+        font-family: 'helveticaneue';
+    }
+
+
+    /* *****************************************MEDIAQUERIES******************************************** */
+@media screen and (max-width: 575.98px) { 
+
+ main {
+    height: 1200px;
+} 
+ .presbalise {
+    font-size: 1.8rem;
+} 
+.logonul {
+    padding-top: 3%;
+}
+
+.logonul img { 
+    margin-top: 8%;
+}
+.footer {
+    padding-top: 8%;
+    font-size: 1.2rem;
+}
+    
+
+/* *****************************LEA MEDIA QUERIES ***************************** */
+
+.main--saumon {
+    height: 1900px;
+
+}
+}
+/* ********************************************************************* */
+/* ********************************************************************* */
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+
+main {
+    height: 1200px;
+}
+.presbalise {
+    font-size: 1.8rem;
+}
+.logonul {
+    padding-top: 3%;
+}
+
+.logonul img { 
+    margin-top: 8%;
+}
+.footer {
+    padding-top: 8%;
+    font-size: 1.2rem;
+}
+/* *****************************LEA MEDIA QUERIES ***************************** */
+ }
+
+/* ********************************************************************* */
+/* ********************************************************************* */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+
+
+/* *****************************LEA MEDIA QUERIES ***************************** */
+
+}
+/* ********************************************************************* */
+/* ********************************************************************* */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* *****************************LEA MEDIA QUERIES ***************************** */
+
+}
